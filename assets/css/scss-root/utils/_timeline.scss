@@ -1,0 +1,105 @@
+.timeline-border {
+    border-left: 1px solid #e5ebf8;
+}
+
+.timeline-list.timeline-border {
+    margin-left: -1px;
+}
+
+.timeline,
+.timeline .timeline-list {
+    position: relative;
+    border-color: #e5ebf8;
+}
+
+.timeline .timeline-list {
+    padding-bottom: 1px;
+}
+
+.timeline .timeline-list .timeline-info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: .875rem;
+}
+
+.timeline-info {
+    border-color: $info !important;
+}
+
+.timeline .timeline-list:before {
+    display: table;
+    content: " ";
+}
+
+.timeline .timeline-list:after {
+    display: table;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    content: "";
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px #e5ebf8 inset;
+}
+
+.timeline-secondary {
+    border-color: $secondary !important;
+}
+
+.timeline-secondary:after {
+    box-shadow: 0 0 0 3px $secondary inset !important;
+}
+
+.timeline-primary {
+    border-color: $primary !important;
+}
+
+.timeline-primary:after {
+    box-shadow: 0 0 0 3px $primary inset !important;
+}
+
+.timeline-danger {
+    border-color: $danger !important;
+}
+
+.timeline-danger:after {
+    box-shadow: 0 0 0 3px $danger inset !important;
+}
+
+.timeline-success {
+    border-color: $success !important;
+}
+
+.timeline-success:after {
+    box-shadow: 0 0 0 3px $success inset !important;
+}
+
+.timeline-warning {
+    border-color: $warning !important;
+}
+
+.timeline-warning:after {
+    box-shadow: 0 0 0 3px $warning inset !important;
+}
+
+.timeline-info {
+    border-color: $info !important;
+}
+
+.timeline-info:after {
+    box-shadow: 0 0 0 3px $info inset !important;
+}
+
+.inbox-details {
+    color: rgba(50, 57, 74, 0.70);
+    font-size: 13px;
+    font-weight: 300;
+    font-family: $font-family-opensans;
+}

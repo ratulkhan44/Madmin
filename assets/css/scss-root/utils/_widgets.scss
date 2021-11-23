@@ -1,0 +1,75 @@
+.card-widget {
+    color: rgba(50, 57, 74, 0.70);
+    font-family: $font-family-opensans;
+
+    h4 {
+        margin: 0 0 5px 0 !important;
+        font-weight: 300;
+        text-align: right;
+        font-size: 2.5rem;
+        display: inline-block;
+        color: #565b61;
+    }
+
+    h6 {
+        margin: 0 0 5px 0 !important;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .widget-icon {
+        font-size: 2.5rem;
+    }
+
+    .widget-icon-info {
+        font-size: 2.5rem;
+        color: rgba(73, 148, 228, 0.46);
+    }
+
+    .widget-icon-warning {
+        font-size: 2.5rem;
+        color: rgba(241, 157, 71, 0.46);
+    }
+
+    .widget-icon-success {
+        font-size: 2.5rem;
+        color: rgba(31, 220, 74, 0.38);
+    }
+
+    .widget-icon-aristocrat {
+        font-size: 2.5rem;
+        color: rgba(189, 29, 241, 0.45);
+    }
+
+    .widget-body-aristocrat {
+        background: rgba(167, 11, 218, 0.96) !important;
+
+        h4 {
+            color: #fff;
+        }
+    }
+
+    .widget-body-info {
+        background: #2188f7 !important;
+
+        h4 {
+            color: #fff;
+        }
+    }
+
+    .widget-body-success {
+        background: #0aa583 !important;
+
+        h4 {
+            color: #fff;
+        }
+    }
+
+    .widget-body-warning {
+        background: #ea8116 !important;
+
+        h4 {
+            color: #fff;
+        }
+    }
+}

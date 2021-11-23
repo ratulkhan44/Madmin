@@ -1,0 +1,13 @@
+.custom-range:focus {
+    box-shadow: none;
+}
+
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: $primary;
+}
+
+.custom-range::-moz-range-thumb {
+    background: $primary;
+}

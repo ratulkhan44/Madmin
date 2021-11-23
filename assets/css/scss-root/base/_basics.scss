@@ -1,0 +1,92 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: $font-family-roboto;
+    background-color: #f4f7f9;
+    font-weight: 400;
+    color: $text-dark;
+    font-size: 14px;
+
+    #app {
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }
+}
+
+a {
+    text-decoration: none !important;
+    color: $primary;
+}
+
+a:hover {
+    color: $dark;
+}
+
+/*input field*/
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+.uneditable-input:focus {
+    border: 1px solid $primary-light;
+    box-shadow: none;
+    outline: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(50, 57, 74, 0.70) !important;
+    font-family: $font-family-ibm;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+input:-moz-placeholder {
+    color: rgba(50, 57, 74, 0.70) !important;
+    font-family: $font-family-ibm;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+input:-ms-input-placeholder {
+    color: rgba(50, 57, 74, 0.70) !important;
+    font-family: $font-family-ibm;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+
+
+
+/* PRISM */
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #fbfbfb;
+}
+
+pre[class*="language-"] {
+    padding: 7px 10px;
+}
+
+pre[class*="language-"]:first-child {
+    margin-top: 0;
+}

@@ -1,0 +1,13 @@
+.collapsing-accordion {
+	.card-body {
+		padding-left: 30px;
+	}
+
+	button,
+	button:hover {
+			text-decoration: none !important;
+    	font-size: 12px;
+    	color: $secondary;
+			text-transform: uppercase;
+	}
+}

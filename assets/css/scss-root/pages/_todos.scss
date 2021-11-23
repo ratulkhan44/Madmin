@@ -1,0 +1,69 @@
+.todo-box {
+    padding-top: 15px;
+}
+
+.todo-list {
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.todo-list .todo-item {
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.todo-list .checkbox,
+.radio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li.todo-item input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+.new-todo {
+    margin-top: 15px;
+
+    .input-group {
+        width: 100%;
+        display: block;
+
+        .input-group-btn {
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            z-index: 4;
+        }
+
+        input {
+            background: #fff;
+            border: none;
+            height: 60px;
+            padding-right: 60px;
+        }
+    }
+
+    input {
+        border: 1px solid #fff !important;
+        width: 100% !important;
+    }
+
+    .todo-submit {
+        background: transparent none repeat scroll 0 0;
+        border: none;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 300;
+        color: rgba(50, 57, 74, 0.70);
+    }
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}

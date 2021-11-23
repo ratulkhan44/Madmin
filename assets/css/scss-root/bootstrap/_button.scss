@@ -1,0 +1,164 @@
+@mixin btn-floating($shadow) {
+    box-shadow: 0 5px 10px #{$shadow} !important;
+    &:hover {
+        box-shadow: 0 12px 15px #{$shadow} !important;
+    }
+}
+
+.btn-primary.btn-floating {
+    @include btn-floating(#dcd9fd);
+}
+
+.btn-secondary.btn-floating {
+    @include btn-floating(#eae9e9);
+}
+
+.btn-success.btn-floating {
+    @include btn-floating(#bef3e7);
+}
+
+.btn-danger.btn-floating {
+    @include btn-floating(#fedee3);
+}
+
+.btn-warning.btn-floating {
+    @include btn-floating(#fcefc6);
+}
+
+.btn-info.btn-floating {
+    @include btn-floating(#c1dcf9);
+}
+
+.btn-dark.btn-floating {
+    @include btn-floating(#c8ced4);
+}
+
+.btn-light.btn-floating {
+    @include btn-floating(#e8e8e8);
+}
+
+.btn-outline-primary.btn-floating {
+    @include btn-floating(#dcd9fd);
+}
+
+.btn-outline-secondary.btn-floating {
+    @include btn-floating(#eae9e9);
+}
+
+.btn-outline-success.btn-floating {
+    @include btn-floating(#bef3e7);
+}
+
+.btn-outline-danger.btn-floating {
+    @include btn-floating(#fedee3);
+}
+
+.btn-outline-warning.btn-floating {
+    @include btn-floating(#fcefc6);
+}
+
+.btn-outline-info.btn-floating {
+    @include btn-floating(#c1dcf9);
+}
+
+.btn-outline-dark.btn-floating {
+    @include btn-floating(#c8ced4);
+}
+
+.btn-outline-light.btn-floating {
+    @include btn-floating(#e8e8e8);
+}
+
+.btn.btn-icon {
+    width: 42px;
+    height: 42px;
+    padding: 0 !important;
+}
+
+.btn.btn-xs {
+    font-size: 10px;
+    padding: 0.1875rem;
+    border-radius: 0.25rem;
+}
+
+.btn.btn-xl {
+    padding: 0.9rem 1.5rem;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px !important;
+    padding: 8px 25px;
+}
+
+.btn.btn-fullwidth {
+    width: 100%;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: $blue-warm;
+    border: $blue-warm;
+}
+
+.btn-cyan {
+    color: #fff;
+    background-color: $cyan-warm;
+    border: $cyan-warm;
+}
+
+.btn-pink {
+    color: #fff;
+    background-color: $pink-warm;
+    border: $pink-warm;
+}
+
+.btn-yellow {
+    color: #fff;
+    background-color: $yellow-warm;
+    border: $yellow-warm;
+}
+
+.btn-primary-soft {
+    color: $primary;
+    background-color: rgba($primary, 0.1);
+    border: transparent;
+}
+.btn-secondary-soft {
+    color: $secondary;
+    background-color: rgba($secondary, 0.1);
+    border: transparent;
+}
+.btn-success-soft {
+    color: $success;
+    background-color: rgba($success, 0.1);
+    border: transparent;
+}
+.btn-warning-soft {
+    color: $warning;
+    background-color: rgba($warning, 0.1);
+    border: transparent;
+}
+
+.btn-danger-soft {
+    color: $danger;
+    background-color: rgba($danger, 0.1);
+    border: transparent;
+}
+.btn-info-soft {
+    color: $info;
+    background-color: rgba($info, 0.1);
+    border: transparent;
+}
+.btn-light-soft {
+    color: $light;
+    background-color: rgba($light, 0.1);
+    border: transparent;
+}
+.btn-dark-soft {
+    color: $dark;
+    background-color: rgba($dark, 0.1);
+    border: transparent;
+}

@@ -1,0 +1,21 @@
+.loader1 {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid $primary;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.loader2 {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid $danger;
+    border-bottom: 12px solid $danger;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}

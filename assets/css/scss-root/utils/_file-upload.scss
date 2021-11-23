@@ -1,0 +1,52 @@
+.custom-file-upload.ajaxified {
+    margin-top: 15px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 25px 25px;
+    cursor: pointer;
+    width: 105px;
+    height: 100px;
+    border: 1px solid #ececec;
+}
+
+.preview-img {
+    input[type="file"] {
+        position: fixed;
+        top: -1000px;
+    }
+}
+
+.image-preview {
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.upload-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.upload-wrapper-delete {
+    position: absolute;
+    color: #ddd;
+    top: 3px;
+    right: 3px;
+    background: #fff;
+    padding: 4px 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 999;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-preview img {
+    width: auto;
+    height: 100px;
+    vertical-align: top;
+}
